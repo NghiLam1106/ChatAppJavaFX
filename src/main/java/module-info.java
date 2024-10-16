@@ -12,5 +12,6 @@ module org.example.chatapp {
     requires com.almasb.fxgl.all;
 
     opens org.example.chatapp to javafx.fxml;
-    exports org.example.chatapp;
+    exports org.example.chatapp.Client.LoginAndRegister;
+    exports org.example.chatapp.Client.Main;
 }
