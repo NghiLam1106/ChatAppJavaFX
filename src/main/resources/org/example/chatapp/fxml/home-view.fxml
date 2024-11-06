@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="426.0" prefWidth="745.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.chatapp.HomeScreen">
+   <children>
+      <BorderPane prefHeight="441.0" prefWidth="746.0">
+         <left>
+            <HBox prefHeight="416.0" prefWidth="302.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="410.0" prefWidth="70.0" styleClass="dark-gray-background" stylesheets="@../styles/style.css">
+                     <children>
+                        <ImageView fitHeight="36.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/image-removebg-preview%20(1).png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin></ImageView>
+                        <ImageView fitHeight="37.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/user-group-296%20(1).png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets top="20.0" />
+                           </VBox.margin></ImageView>
+                        <ImageView fitHeight="39.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/person-295.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets top="20.0" />
+                           </VBox.margin></ImageView>
+                        <ImageView fitHeight="37.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/image-removebg-preview%20(2).png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets top="20.0" />
+                           </VBox.margin></ImageView>
+                        <ImageView fitHeight="40.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/arrow-back-3783.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets top="100.0" />
+                           </VBox.margin></ImageView>
+                     </children>
+                     <padding>
+                        <Insets top="60.0" />
+                     </padding></VBox>
+                  <VBox prefHeight="420.0" prefWidth="232.0" styleClass="gray-background" stylesheets="@../styles/style.css">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="35.0" prefWidth="192.0" stylesheets="@../styles/style.css">
+                           <children>
+                              <ImageView fitHeight="25.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/image-removebg-preview.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets right="6.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <TextField prefHeight="48.0" prefWidth="135.0" promptText="Search" styleClass="transparent-background" stylesheets="@../styles/style.css" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="30.0" right="10.0" top="10.0" />
+                           </VBox.margin>
+                           <styleClass>
+                              <String fx:value="dark-gray-background" />
+                              <String fx:value="radius" />
+                           </styleClass>
+                        </HBox>
+                        <Pane prefHeight="2.0" prefWidth="232.0" styleClass="dark-gray-background" stylesheets="@../styles/style.css" />
+                        <HBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="227.0">
+                           <children>
+                              <ImageView fitHeight="41.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/chat-icon-2048x2048-i7er18st.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets left="10.0" right="10.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <VBox alignment="CENTER_LEFT" prefHeight="47.0" prefWidth="158.0">
+                                 <children>
+                                    <Label prefHeight="0.0" prefWidth="28.0" text="ABC" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets top="5.0" />
+                                       </padding>
+                                    </Label>
+                                    <Label prefHeight="5.0" prefWidth="149.0" text="Bạn: Ok fen hhahahaaaaaaaaah" textFill="#9da7a7" />
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets left="10.0" />
+                                 </opaqueInsets>
+                              </VBox>
+                           </children>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="70.0" prefWidth="227.0" styleClass="gray-background" stylesheets="@../styles/style.css">
+                           <children>
+                              <ImageView fitHeight="41.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/chat-icon-2048x2048-i7er18st.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets left="10.0" right="10.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <VBox alignment="CENTER_LEFT" prefHeight="80.0" prefWidth="138.0">
+                                 <children>
+                                    <Label prefHeight="0.0" prefWidth="28.0" text="DCE" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets top="5.0" />
+                                       </padding>
+                                    </Label>
+                                    <Label prefHeight="17.0" prefWidth="114.0" text="HAHAHA!!" textFill="#9da7a7">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font></Label>
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets left="20.0" />
+                                 </opaqueInsets>
+                              </VBox>
+                              <Pane prefHeight="80.0" prefWidth="95.0">
+                                 <children>
+                                    <Circle fill="DODGERBLUE" layoutX="46.0" layoutY="39.0" radius="3.0" stroke="DODGERBLUE" strokeType="INSIDE" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="248.0">
+                           <children>
+                              <ImageView fitHeight="41.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/chat-icon-2048x2048-i7er18st.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets left="10.0" right="10.0" />
+                                 </HBox.margin></ImageView>
+                              <VBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="190.0">
+                                 <children>
+                                    <Label text="FGH" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="17.0" prefWidth="114.0" text="Bạn: OK " textFill="#9da7a7" />
+                                 </children>
+                              </VBox>
+                           </children></HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="224.0">
+                           <children>
+                              <ImageView fitHeight="41.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/chat-icon-2048x2048-i7er18st.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets left="10.0" right="10.0" />
+                                 </HBox.margin></ImageView>
+                              <VBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="119.0">
+                                 <children>
+                                    <Label text="ASD" textFill="#fffdfd">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font></Label>
+                                    <Label text="Hẹn gặp lại" textFill="#9da7a7">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <Pane prefHeight="68.0" prefWidth="54.0">
+                                 <children>
+                                    <Circle fill="DODGERBLUE" layoutX="37.0" layoutY="35.0" radius="3.0" stroke="DODGERBLUE" strokeType="INSIDE" />
+                                 </children>
+                              </Pane>
+                           </children></HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="224.0">
+                           <children>
+                              <ImageView fitHeight="41.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/chat-icon-2048x2048-i7er18st.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets left="10.0" right="10.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <VBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="175.0">
+                                 <children>
+                                    <Label text="HJK" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="17.0" prefWidth="129.0" text="Bạn: Bye" textFill="#9da7a7" />
+                                 </children></VBox>
+                           </children>
+                        </HBox>
+                     </children></VBox>
+               </children>
+            </HBox>
+         </left>
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+         <center>
+            <VBox prefHeight="410.0" prefWidth="444.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="57.0" prefWidth="443.0">
+                     <children>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/chat-icon-2048x2048-i7er18st.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <Label prefHeight="14.0" prefWidth="40.0" text="ABC" textFill="#9da7a7">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets left="20.0" />
+                           </opaqueInsets>
+                           <HBox.margin>
+                              <Insets left="10.0" right="5.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Circle fill="#50c984" radius="3.0" stroke="#50c984" strokeType="INSIDE" />
+                        <Label text="Online" textFill="#a19393">
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </Label>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <HBox.margin>
+                              <Insets left="150.0" right="10.0" />
+                           </HBox.margin>
+                           <image>
+                              <Image url="@../image/icons8-call-80.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="35.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/icons8-video-call-80.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/icons8-more-80.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <ScrollPane prefHeight="319.0" prefWidth="444.0" styleClass="light-gray-background" stylesheets="@../styles/style.css">
+                     <content>
+                        <Pane prefHeight="320.0" prefWidth="440.0" styleClass="light-gray-background" stylesheets="@../styles/style.css">
+                           <children>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/chat-icon-2048x2048-i7er18st.png" />
+                                 </image>
+                              </ImageView>
+                              <Label contentDisplay="CENTER" layoutX="53.0" layoutY="15.0" prefHeight="25.0" prefWidth="57.0" styleClass="incoming-bubble" stylesheets="@../styles/style.css" text="Hi em!!">
+                                 <opaqueInsets>
+                                    <Insets left="5.0" />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets left="5.0" />
+                                 </padding></Label>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="385.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/chat-icon-2048x2048-i7er18st.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="305.0" layoutY="60.0" prefHeight="26.0" prefWidth="73.0" styleClass="outgoing-bubble" stylesheets="@../styles/style.css" text="Em chào ạ">
+                                 <padding>
+                                    <Insets left="5.0" />
+                                 </padding></Label>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="14.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/chat-icon-2048x2048-i7er18st.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="385.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/chat-icon-2048x2048-i7er18st.png" />
+                                 </image></ImageView>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="14.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/chat-icon-2048x2048-i7er18st.png" />
+                                 </image></ImageView>
+                              <ImageView fitHeight="32.0" fitWidth="30.0" layoutX="383.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true" />
+                              <Label layoutX="53.0" layoutY="102.0" prefHeight="29.0" prefWidth="138.0" styleClass="incoming-bubble" stylesheets="@../styles/style.css" text="Hẹn gặp vào thứ 7 nhé">
+                                 <padding>
+                                    <Insets left="5.0" />
+                                 </padding></Label>
+                              <Label layoutX="53.0" layoutY="199.0" prefHeight="29.0" prefWidth="37.0" styleClass="incoming-bubble" stylesheets="@../styles/style.css" text="7h">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets left="5.0" />
+                                 </padding></Label>
+                              <Label layoutX="307.0" layoutY="158.0" prefHeight="25.0" prefWidth="70.0" styleClass="outgoing-bubble" stylesheets="@../styles/style.css" text="Mấy giờ ạ">
+                                 <padding>
+                                    <Insets left="5.0" />
+                                 </padding></Label>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="385.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/chat-icon-2048x2048-i7er18st.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="232.0" layoutY="254.0" prefHeight="29.0" prefWidth="150.0" styleClass="outgoing-bubble" stylesheets="@../styles/style.css" text="Ok fen hhahahaaaaaaaaah" />
+                           </children></Pane>
+                     </content>
+                  </ScrollPane>
+                  <HBox prefHeight="58.0" prefWidth="444.0">
+                     <children>
+                        <ImageView fitHeight="26.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/image-removebg-preview%20(3).png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="15.0" top="15.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <ImageView fitHeight="28.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/image-removebg-preview%20(4).png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="5.0" top="15.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <ImageView fitHeight="44.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <HBox.margin>
+                              <Insets left="310.0" top="5.0" />
+                           </HBox.margin>
+                           <image>
+                              <Image url="@../image/icons8-send-96.png" />
+                           </image>
+                        </ImageView>
+                     </children></HBox>
+               </children>
+            </VBox>
+         </center></BorderPane>
+   </children>
+</AnchorPane>
