@@ -10,8 +10,13 @@ module org.example.chatapp {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.sql;
+    requires org.apache.commons.lang3;
+    requires javafx.media;
 
-    opens org.example.chatapp to javafx.fxml;
-    exports org.example.chatapp.Client.LoginAndRegister;
+    // Mở gói chứa các controller cho javafx.fxml
+    opens org.example.chatapp.Client.controller to javafx.fxml;
+
+    // Xuất gói Main cho các module khác nếu cần
     exports org.example.chatapp.Client.Main;
 }
